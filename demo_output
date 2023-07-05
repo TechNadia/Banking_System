@@ -1,0 +1,359 @@
+# A demonstration of the output and some test cases:
+Output:
+=================== Login Options ===================
+Press 1: To login as User
+Press 2: To login as Admin
+Press 3: End
+*** Please login as user or admin to get the options
+-----------------------------------------------------
+1
+Email: u    
+Password: 123
+Successfully Logged in...
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+1
+Email: u
+Password: 123
+Account No is:  1
+Account has been created successfully!
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+2
+Deposit amount: 200000
+Account No: 1
+Successfully deposited  200000  in your account
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+0
+=================== Login Options ===================
+Press 1: To login as User
+Press 2: To login as Admin
+Press 3: End
+*** Please login as user or admin to get the options
+-----------------------------------------------------
+2
+Email: a
+Password: 123
+Successfully Logged in...
+============== Admin Options ==============
+Press 1: To create an account
+Press 2: To check the total available balance of the bank
+Press 3: To check the total loan amount
+Press 4: To on or off the loan feature of the bank
+Press 5: To check bank details
+Press 0: Back
+-------------------------------------------
+1
+Email: asdf
+Password: 123
+Account No is:  2
+User:  asdf
+User and account with the same email and password have been created successfully!
+============== Admin Options ==============
+Press 1: To create an account
+Press 2: To check the total available balance of the bank
+Press 3: To check the total loan amount
+Press 4: To on or off the loan feature of the bank
+Press 5: To check bank details
+Press 0: Back
+-------------------------------------------
+0
+=================== Login Options ===================
+Press 1: To login as User
+Press 2: To login as Admin
+Press 3: End
+*** Please login as user or admin to get the options
+-----------------------------------------------------
+1
+Email: 1
+Password: 1
+Invalid credentials!
+=================== Login Options ===================
+Press 1: To login as User
+Press 2: To login as Admin
+Press 3: End
+*** Please login as user or admin to get the options
+-----------------------------------------------------
+1
+Email: asdf
+Password: 123
+Successfully Logged in...
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+8
+=============== User Details ================
+Email: asdf
+============= List of Accounts ==============
+Account No: 2   Email: asdf 	Balance: 0  	Loan: 0
+
+
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+5
+Transfer amount: 10000
+Account No to Transfer from: 2
+Account No to Transfer to : 1
+You don't have enough money in your account!
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+6
+============== Transaction History ==============
+Failed to transfer 10000 from account 2 to account 1 by asdf at 2023-07-05 16:15:10.800738
+
+
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+2
+Deposit amount: 100000
+Account No: 2
+Successfully deposited  100000  in your account
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+5
+Transfer amount: 50000
+Account No to Transfer from: 2
+Account No to Transfer to : 1
+Successfully Transferred 50000 from account 2 to account 1
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+6
+============== Transaction History ==============
+Failed to transfer 10000 from account 2 to account 1 by asdf at 2023-07-05 16:15:10.800738
+Successfully deposited 100000 in account 2 by asdf at 2023-07-05 16:15:31.133378
+Successfully Transferred 50000 from account 2 to account 1 by asdf at 2023-07-05 16:15:58.897066
+
+
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+0
+=================== Login Options ===================
+Press 1: To login as User
+Press 2: To login as Admin
+Press 3: End
+*** Please login as user or admin to get the options
+-----------------------------------------------------
+1
+Email: u
+Password: 123
+Successfully Logged in...
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+6
+============== Transaction History ==============
+Successfully deposited 200000 in account 1 by u at 2023-07-05 16:13:58.321716
+
+
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+8
+=============== User Details ================
+Email: u
+============= List of Accounts ==============
+Account No: 1   Email: u    	Balance: 250000 Loan: 0
+
+
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+0
+=================== Login Options ===================
+Press 1: To login as User
+Press 2: To login as Admin
+Press 3: End
+*** Please login as user or admin to get the options
+-----------------------------------------------------
+2
+Email: a
+Password: 123
+Successfully Logged in...
+============== Admin Options ==============
+Press 1: To create an account
+Press 2: To check the total available balance of the bank
+Press 3: To check the total loan amount
+Press 4: To on or off the loan feature of the bank
+Press 5: To check bank details
+Press 0: Back
+-------------------------------------------
+3
+Total loan amount:  0
+============== Admin Options ==============
+Press 1: To create an account
+Press 2: To check the total available balance of the bank
+Press 3: To check the total loan amount
+Press 4: To on or off the loan feature of the bank
+Press 5: To check bank details
+Press 0: Back
+-------------------------------------------
+4
+On or Off Loan Sanction (on/off):off
+Successfully turned off loan giving option.
+============== Admin Options ==============
+Press 1: To create an account
+Press 2: To check the total available balance of the bank
+Press 3: To check the total loan amount
+Press 4: To on or off the loan feature of the bank
+Press 5: To check bank details
+Press 0: Back
+-------------------------------------------
+0
+=================== Login Options ===================
+Press 1: To login as User
+Press 2: To login as Admin
+Press 3: End
+*** Please login as user or admin to get the options
+-----------------------------------------------------
+1
+Email: u
+Password: 123
+Successfully Logged in...
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+7
+Sorry, currently loan is unavailable!
+============== User Options ==============
+Press 1: To create account
+Press 2: To deposit Money
+Press 3: To withdraw Money
+Press 4: To check available balance
+Press 5: To transfer amount to another account
+Press 6: To check transaction history
+Press 7: To take a loan from the bank
+Press 8: To check user details
+Press 0: Back
+-----------------------------------------
+0
+=================== Login Options ===================
+Press 1: To login as User
+Press 2: To login as Admin
+Press 3: End
+*** Please login as user or admin to get the options
+-----------------------------------------------------
+3
+Bank Service is being terminated...
+
